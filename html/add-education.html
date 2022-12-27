@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Welcome to DevConnector</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <nav class="navbar bg-dark">
+            <h1>
+              <a href="index.html"><i class="fas fa-code"></i> DevConnector</a>
+            </h1>
+            <ul>
+              <li><a href="profiles.html">Developers</a></li>
+              <li><a href="signup.html">Signup</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <section class="container">
+        <h1 class="large text-primary">Add Your Education</h1>
+        <p class="lead"><i class="fas fa-graduation-cap"></i>Add any school, bootcamp, etc that you have attended</p>
+        
+        <small class="form-text">* = required field</small>
+        <form class="form" action="create-profile.html">
+            <div class="form-group">
+                <input type="text" name="school or bootcamp" placeholder="* School or Bootcamp">
+            </div>
+            <div class="form-group">
+                <input type="text" name="degree or certificate" placeholder="* Degree or Certificate">
+            </div>
+            <div class="form-group">
+                <input type="text" name="field of study" placeholder="Field of Study">
+            </div>
+            <h4>From Date</h4>
+            <div class="form-group">
+                <input type="date" name="date" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="=start date" >Current School or Bootcamp</input>
+            </div>
+            <h4>To Date</h4>
+            <div class="form-group">
+                <input type="date" name="to date" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="form-group">
+                <textarea name="text" cols="30" rows="5" placeholder="Program Description" required></textarea>
+            </div>
+            <div>
+                <input type="submit" class="btn btn-primary" value="Submit" />
+                <input type="goback" class="btn btn-light" value="Go back" /> 
+            </div>
+        </form>
+        </section>
+        <footer>copyright &copy; 2022 Knowledgehut.com</footer>
+    </body>
+</html>
